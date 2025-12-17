@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  padding: 20px;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #000;
+  padding: 15px 20px;
+}
+
+header h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+header button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+.search-section input {
+  width: 64%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+
+.search-section input:focus {
+  outline: none;
+  border-color: #fff;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+.cart-container {
+  flex: 2;
+}
+
+#cartList {
+  list-style: none;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.cart-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-details h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cart-item-details p {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quantity-controls button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.delete-btn {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #999;
+  font-weight: bold;
+  border: none;
+  background: none;
+  font-size: 18px;
+}
+
+.summary-panel {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.summary-panel h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.summary-panel p {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#checkoutBtn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(44, 44, 151);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
